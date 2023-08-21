@@ -1,0 +1,10 @@
+console.log("TS Variables");
+var firstName = "sai";
+var lastName = "Kumar";
+var mobileNumber = 9900990099;
+var isQualified = false;
+var salary = 12000.0;
+console.log("".concat(firstName, " ").concat(lastName));
+console.log("Mobile Number:".concat(mobileNumber));
+console.log("isQualified:".concat(isQualified));
+console.log("Salary:".concat(salary));
