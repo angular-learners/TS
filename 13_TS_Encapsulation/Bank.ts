@@ -4,16 +4,16 @@ export class Bank {
   private amount: number;
   private location: string;
 
-  set setCustomerName(customerName: string) {
+  private set setCustomerName(customerName: string) {
     this.customerName = customerName;
   }
-  set setCustomerNumber(customerNumber: number) {
+  private set setCustomerNumber(customerNumber: number) {
     this.customerNumber = customerNumber;
   }
-  set setAmount(amount: number) {
+  private set setAmount(amount: number) {
     this.amount = amount;
   }
-  set setLocation(location: string) {
+  private set setLocation(location: string) {
     this.location = location;
   }
 
@@ -50,10 +50,10 @@ export class Bank {
 }
 
 const bank: Bank = new Bank();
-bank.setAmount = 1000;
-bank.setCustomerName = "Kumar";
-bank.setLocation = "HYD";
-bank.setCustomerNumber = 12002000100;
+// bank.setAmount = 1000;
+// //bank.setCustomerName = "Kumar";
+// bank.setLocation = "HYD";
+// bank.setCustomerNumber = 12002000100;
 bank.checkBalance();
 bank.depositAmount(2000);
 bank.checkBalance();
